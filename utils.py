@@ -69,7 +69,7 @@ def build_and_train():
     
     # Create the parameters list you wish to tune
     parameters = {
-        'C': [0.001, 0.01, 0.1, 1]
+        'C': [0.001, 0.01, 0.1, 1, 10, 100]
     }
     
     # Make an fbeta_score scoring object
